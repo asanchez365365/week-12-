@@ -23,8 +23,9 @@ print(1 < x < 20)         # True
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
 
+print(x >50 and x <100)
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
-
+print( x>10 and )
 # Use chained comparison to check if 3 < 4 < 5.
 
 # Challenge: Create a password rule using logical operators:
