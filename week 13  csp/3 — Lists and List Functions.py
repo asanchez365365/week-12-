@@ -141,3 +141,26 @@ print(my_tuple)
 print(type(my_tuple)) #<class 'tuple'>
 print(my_tuple[0]) #1
 print(my_tuple[1:4])
+
+groceries= [["apple", "bannana", "coconut"]
+["potatoes", "celery"]
+["turkey", "chicken", " fish"]]
+
+# groceries = [fruits,vegetables,meats]
+
+# print(groceries[1][0])
+
+for collection in groceries:
+    for food in collection:
+        print(collection)
+
+#2d tuple
+num_pad = ((1,2,3),
+           (4,5,6),
+           (7,8,9),
+           ("#", 0, "#"))
+
+for row in num_pad:
+    for num in row:
+        print(num, end=" ")
+    print()
