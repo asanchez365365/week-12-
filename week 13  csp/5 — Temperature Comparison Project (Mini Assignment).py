@@ -12,3 +12,17 @@
 
 # Starter Code:
 
+temperature= (90)
+
+if temperature <= 20:
+    print("its very very cold")
+elif 20 < temperature < 50:
+        print("It's warm")
+else: 
+        print("It's hot")
+
+if temperature <= -10:
+       print("Extreme Temperature Warning!")
+
+if temperature < -10 or temperature > 110:
+        print("Extreme temperature warning!")
